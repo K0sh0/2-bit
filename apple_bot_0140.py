@@ -26,24 +26,7 @@ import asyncio
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
-global rps_state
-global long_list
-global long_color
-global long_oe
-global riley
-global kimo
-global conn
-global black_swan
-global c
-global cluu
-global fin_set
-global cat_set
-global ans_set
-global amount
-global payday
-global cur_deck
-global pot
-global flop
+g
 global players
 global active_table
 global cur_player
@@ -62,22 +45,16 @@ queue = []
 tracker = 0
 confirm = "☻☻☻☻☻☻☻☻ ΦΦ ☻☻☻☻☻☻☻☻"
 rps_state = 0
-TOKEN ="NjU5OTY2MjY2MTI3MTU1MjE5.XmxlPA.4Xll7rDj2hODK_mF9McjRX8NGSE"
-bot = commands.Bot('.')
+TOKEN ="NjU5OTY2MjY2MTI3MTU1M
+bot = commands.Bot('.
 bot.remove_command('help')
 kosho_id = 436061310225088512
 amounts = {}
-long_list= []
-long_color = []
-long_oe = []
-eo = "empty"
-host_on = False
+long_list=
 
 class User:
   def __init__(self, userid, amount):
-    self.userid = userid
-    self.amount = amount
-
+    self.userid = user
 #########################################################################################
 #########################################################################################
 ##      SQLITE DATABASE
